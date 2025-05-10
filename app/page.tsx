@@ -9,6 +9,7 @@ export default function Home() {
       <main className="flex-1 container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-center mb-8">Συλλογές δεδομένων για την Ελλάδα</h1>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         <div className="max-w-md mx-auto">
           <Card className="shadow-lg">
             <CardHeader>
@@ -44,6 +45,7 @@ export default function Home() {
             </CardFooter>
           </Card>
         </div>
+      </div>
       </main>
 
       <footer className="w-full border-t bg-background py-6 mt-10">
