@@ -12,6 +12,24 @@ export default function Home() {
         <div className="max-w-md mx-auto">
           <Card className="shadow-lg">
             <CardHeader>
+              <CardTitle>Επενδύσεις ΟΣΕΚΑ (UCITS)</CardTitle>
+              <CardDescription>
+                Διαχρονική εξέλιξη των επενδύσεων σε ΟΣΕΚΑ (UCITS) από φορολογικούς κατοίκους Ελλάδας
+              </CardDescription>
+            </CardHeader>
+            <CardFooter>
+              <Button asChild className="w-full">
+                <Link href="https://oseka.datasets.gr/" target="_blank" rel="noopener noreferrer">
+                  Επισκεφθείτε <ExternalLink className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </CardFooter>
+          </Card>
+        </div>
+
+        <div className="max-w-md mx-auto">
+          <Card className="shadow-lg">
+            <CardHeader>
               <CardTitle>Εργατικά ατυχήματα</CardTitle>
               <CardDescription>
                 Διαδραστική απεικόνιση των ιστορικών δεδομένων εργατικών ατυχημάτων στην Ελλάδα
