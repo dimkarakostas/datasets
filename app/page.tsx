@@ -20,7 +20,7 @@ export default function Home() {
             </CardHeader>
             <CardFooter>
               <Button asChild className="w-full">
-                <Link href="https://oseka.datasets.gr/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://oseka.datasets.gr/" rel="noopener noreferrer">
                   Επισκεφθείτε <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -38,7 +38,7 @@ export default function Home() {
             </CardHeader>
             <CardFooter>
               <Button asChild className="w-full">
-                <Link href="https://ergatika.datasets.gr/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://ergatika.datasets.gr/" rel="noopener noreferrer">
                   Επισκεφθείτε <ExternalLink className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
